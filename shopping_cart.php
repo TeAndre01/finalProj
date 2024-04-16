@@ -72,7 +72,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <li class="nav-item">
                         <a class="nav-link" href="FAQ.php">FAQ</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.php">Shopping Cart</a>
+                    </li>
                 </ul>
 
                 <span class="navbar-text">
@@ -80,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <a class="nav-link" href="login.php">Login</a>
                     </button>
                     <button>
-                        <a class="nav-link" href="Registration1">Register</a>
+                        <a class="nav-link" href="register.php">Register</a>
                     </button>
                 </span>
                 </div>

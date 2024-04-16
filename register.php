@@ -8,36 +8,29 @@
 </head>
 <body>
     <header>
-        <h1>Register</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="faq.php">FAQ</a></li>
-            </ul>
-        </nav>
+        <h1 class="container">Register</h1>
+        
     </header>
-    <section>
+    <section class="container">
         <h2>Create an Account</h2>
         <form method="post" action="register_process.php">
             <div>
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
-            </div>
+            </div><br>
             <div>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
-            </div>
+            </div><br>
             <div>
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
-            </div>
+            </div><br>
             <button type="submit" name="register_btn">Register</button>
         </form>
     </section>
     
-    <footer>
+    <footer style="background-color: cornflowerblue; color: white; width: 100%; min-height: 7vh; bottom: 0;">
         <p>&copy; 2024 Amanzimtoti.com. All rights reserved.</p>
     </footer>
 </body>

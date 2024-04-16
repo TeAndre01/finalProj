@@ -10,17 +10,47 @@
 </head>
 <body>
     <header>
-        <h1>Frequently Asked Questions</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="FAQ.php">FAQ</a></li>
-            </ul>
+        
+        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid" >
+                <a class="navbar-brand" href="#">Amanzimtoti.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homePage.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="aboutPage.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.php">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.php">Shopping Cart</a>
+                    </li>
+                </ul>
+
+                <span class="navbar-text">
+                    <button>
+                        <a class="nav-link" href="login.php">Login</a>
+                    </button>
+                    <button>
+                        <a class="nav-link" href="register.php">Register</a>
+                    </button>
+                </span>
+                </div>
+            </div>
         </nav>
     </header>
-    <section>
+
+    <h1 class="container">Frequently Asked Questions</h1>
+    <section class="container">
         <h2>General Questions</h2>
         <div class="faq-item">
             <h3>1. What is Amanzimtoti.com?</h3>
@@ -32,7 +62,8 @@
         </div>
         <!-- Add more FAQ items here -->
     </section>
-    <footer>
+
+    <footer style="background-color: cornflowerblue; color: white; width: 100%; min-height: 7vh; bottom: 0;">
         <p>&copy; 2024 Amanzimtoti.com. All rights reserved.</p>
     </footer>
 </body>
