@@ -12,7 +12,7 @@
 <body>
     <header>
         
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Amanzimtoti.com</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,35 +21,37 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="homePage.php">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                         <a class="nav-link" href="aboutPage.php">About</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="FAQ.php">FAQ</a>
                     </li>
-                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.php">Shopping Cart</a>
+                    </li>
                 </ul>
 
                 <span class="navbar-text">
                     <button>
-                        <a class="nav-link" href="#">Login</a>
+                        <a class="nav-link" href="">Login</a>
                     </button>
                     <button>
-                        <a class="nav-link" href="#">Register</a>
+                        <a class="nav-link" href="Registration1">Register</a>
                     </button>
                 </span>
                 </div>
             </div>
         </nav>
     </header>
-    <section>
+    <section class="container">
 
-    <h1>About Us</h1>
+    <h1>About Us</h1><hr>
         <h2>Who We Are</h2>
         <p>Amanzimtoti.com is a leading technology company specializing in e-commerce, online advertising, cloud computing, digital streaming, and artificial intelligence. Our mission is to provide innovative solutions that empower businesses and individuals in the digital age.</p>
         
@@ -62,8 +64,16 @@
         <h2>Get In Touch</h2>
         <p>Have questions or inquiries? Feel free to <a href="contact.php">contact us</a> for more information. We're here to help!</p>
     </section>
-    <footer>
+    <footer style="background-color: cornflowerblue; color: white; width: 100%; min-height: 7vh; bottom: 0;">
         <p>&copy; 2024 Amanzimtoti.com. All rights reserved.</p>
     </footer>
 </body>
+
+<style>
+    body{
+        margin: 0;
+        min-height: 100vh;
+    }
+   
+</style>    
 </html>

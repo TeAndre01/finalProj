@@ -10,37 +10,73 @@
 </head>
 <body>
     <header>
-        <h1>Contact Us</h1>
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="faq.php">FAQ</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Amanzimtoti.com</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="homePage.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="aboutPage.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.php">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.php">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="FAQ.php">Shopping Cart</a>
+                    </li>
+                </ul>
+
+                <span class="navbar-text">
+                    <button>
+                        <a class="nav-link" href="">Login</a>
+                    </button>
+                    <button>
+                        <a class="nav-link" href="Registration1">Register</a>
+                    </button>
+                </span>
+                </div>
+            </div>
         </nav>
     </header>
-    <section>
-        <h2>Get in Touch</h2>
+    <section class="container">
+        <h2>Contact Us</h2><hr>
         <p>If you have any questions, feedback, or inquiries, please feel free to contact us using the form below:</p>
         <form method="post" action="contact_process.php">
             <div>
-                <label for="name">Your Name</label>
+                <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
-            </div>
+            </div><br>
             <div>
-                <label for="email">Your Email</label>
+                <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" required>
-            </div>
+            </div><br>
             <div>
-                <label for="message">Your Message</label>
+                <label for="message">Your Message:</label>
                 <textarea id="message" name="message" required></textarea>
             </div>
-            <button type="submit" name="submit">Send Message</button>
-        </form>
+            <button type="submit" name="submit">Send Message</button><br>
+        </form><br>
     </section>
-    <footer>
+
+    <footer style="background-color: cornflowerblue; color: white; width: 100%; min-height: 7vh; bottom: 0;">
         <p>&copy; 2024 Amanzimtoti.com. All rights reserved.</p>
     </footer>
 </body>
+
+<style>
+    body{
+        margin: 0;
+        min-height: 100vh;
+    }
+   
+</style>    
 </html>
